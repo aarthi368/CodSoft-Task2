@@ -1,0 +1,195 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f7f7f7;
+}
+
+header{
+background:linear-gradient(90deg,#6C63FF,#FF6584);
+padding:15px 0;
+}
+
+nav{
+width:90%;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:white;
+font-size:30px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:yellow;
+}
+
+.hero{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1441986300917-64674bd600d8');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.hero-content{
+background:rgba(0,0,0,0.5);
+padding:50px;
+border-radius:20px;
+color:white;
+text-align:center;
+width:70%;
+}
+
+.hero-content h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#FF6584;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.offer{
+background:#FFF3CD;
+text-align:center;
+padding:40px;
+}
+
+.offer h2{
+color:#d63384;
+}
+
+.products{
+padding:70px;
+text-align:center;
+}
+
+.products h2{
+margin-bottom:40px;
+font-size:40px;
+}
+
+.product-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+width:300px;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding-bottom:20px;
+}
+
+.reviews{
+background:#eef2ff;
+padding:70px;
+text-align:center;
+}
+
+.review-box{
+width:60%;
+margin:20px auto;
+padding:20px;
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.page{
+padding:60px;
+text-align:center;
+}
+
+.page-img{
+width:80%;
+border-radius:20px;
+margin:30px 0;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:50%;
+margin:auto;
+gap:20px;
+}
+
+input,textarea{
+padding:15px;
+border:1px solid #ccc;
+border-radius:10px;
+}
+
+button{
+padding:15px;
+background:#6C63FF;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
